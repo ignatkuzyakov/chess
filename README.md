@@ -17,3 +17,8 @@ To compile with Makefile just use:
 
 Compiling in Windows:
 You need just distribute all files into MVS without Makefile
+
+The game is look like: 
+
+![Снимок](https://github.com/ignatkuzyakov/chess/assets/123599598/6b401ad1-8bb0-425e-b6a7-ea9d3d1770fb)
+
