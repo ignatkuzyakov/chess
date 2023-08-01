@@ -59,7 +59,7 @@ bool ChessGame::CreateMenu()
 
     FillRect(olc::vf2d{156.0f, 276.0f}, olc::vf2d{328.0f, 88.0f}, olc::BLACK);
     FillRect(olc::vf2d{160.0f, 280.0f}, olc::vf2d{320.0f, 80.0f}, olc::CYAN);
-    DrawString(olc::vf2d{270.0f, 515.0f}, "Press ESC to exit game", olc::BLACK, 2);
+    DrawString(olc::vf2d{270.0f, 515.0f}, "Press ESC for back to menu", olc::BLACK, 2);
 
     olc::vf2d mouse = {float(GetMouseX()), float(GetMouseY())};
 
@@ -68,7 +68,7 @@ bool ChessGame::CreateMenu()
         FillRect(olc::vf2d{160.0f, 280.0f}, olc::vf2d{320.0f, 80.0f}, olc::Pixel(0, 255, 255, 200));
     }
 
-    DrawString(olc::vf2d{200.0f, 315.0f}, "PLAY MOTHERFAKA", olc::BLACK, 2);
+    DrawString(olc::vf2d{200.0f, 315.0f}, "PLAY", olc::BLACK, 2);
 
     if (GetMouse(0).bPressed)
     {
