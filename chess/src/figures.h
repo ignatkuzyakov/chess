@@ -26,8 +26,8 @@ public:
     std::string showType() const;
     
     Figures operator =(Figures);
-   
 
+    virtual ~Figures(){}
     virtual void move(int, int, std::vector<Point> &);
 };
 
